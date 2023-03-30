@@ -707,14 +707,14 @@ body:not(.loaded) .leaf-right-decor { background: url(../img/bg/leaf-right.svg) 
 
 
 
-      .whatsapp-container {
+.whatsapp-container {
         position: fixed;
         bottom: 20px;
         left: 20px;
         z-index: 9999;
       }
 
-      .whatsapp-container a {
+.whatsapp-container a {
         display: inline-block;
         width: 50px;
         height: 50px;
@@ -726,7 +726,7 @@ body:not(.loaded) .leaf-right-decor { background: url(../img/bg/leaf-right.svg) 
         transition: all 0.3s ease;
       }
 
-      .whatsapp-container a:hover {
+.whatsapp-container a:hover {
         transform: scale(1.1);
       }
 
