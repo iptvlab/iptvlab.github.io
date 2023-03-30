@@ -707,7 +707,7 @@ body:not(.loaded) .leaf-right-decor { background: url(../img/bg/leaf-right.svg) 
 
 
 
-.whatsapp-container {
+      .whatsapp-container {
         position: fixed;
         bottom: 20px;
         left: 20px;
