@@ -712,6 +712,7 @@ body:not(.loaded) .leaf-right-decor { background: url(../img/bg/leaf-right.svg) 
   bottom: 20px;
   left: 20px;
   z-index: 9999;
+  animation: bounce 1s 5s ease forwards;
 }
 
 .whatsapp-container a {
@@ -724,14 +725,10 @@ body:not(.loaded) .leaf-right-decor { background: url(../img/bg/leaf-right.svg) 
   font-size: 20px;
   line-height: 50px;
   transition: all 0.3s ease;
-  animation-name: bounce;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
 }
 
 .whatsapp-container a:hover {
   transform: scale(1.1);
-  animation-name: none;
 }
 
 @keyframes bounce {
@@ -751,6 +748,7 @@ body:not(.loaded) .leaf-right-decor { background: url(../img/bg/leaf-right.svg) 
     transform: translateY(0);
   }
 }
+
 
 
 /*# sourceMappingURL=first-screen.css.map */
